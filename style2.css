@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: opacity 0.5s;
+    opacity: 1;
+}
+
+
+.glowBox {
+    display: inline-block;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.CommonShadow {
+    box-shadow: 0 0 20px 10px rgba(6, 120, 10, 0.75); /* Purple glow */
+}
+
+.RareShadow {
+    box-shadow: 0 0 20px 10px rgba(55, 77, 222, 0.75); /* Purple glow */
+}
+
+.LegendaryShadow {
+    box-shadow: 0 0 20px 10px rgba(191, 24, 191, 0.75); /* Purple glow */
+}
+
+
+.cardRarity {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0px;
+}
+
+.CommonBox {
+    background-color: rgba(6, 120, 10, 0.75);
+}
+
+.RareBox {
+    background-color: rgba(55, 77, 222, 0.75);
+}
+
+.LegendaryBox {
+    background-color: rgba(191, 24, 191, 0.75);
+}
+
+
+
+
+.cardName {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.cardImage {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.cardDescription {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.buttonNextCard {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buttonArea {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
